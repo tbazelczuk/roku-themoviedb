@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="View" extends="KopytkoGroup">
+  <script type="text/brightscript" uri="View.component.brs" />
+</component>

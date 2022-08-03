@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="MoviesView" extends="View">
+  <script type="text/brightscript" uri="Movies.template.brs" />
+  <script type="text/brightscript" uri="Movies.view.brs" />
+</component>

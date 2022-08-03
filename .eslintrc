@@ -1,0 +1,8 @@
+{
+  "extends": "plugin:@dazn/kopytko/recommended",
+  "plugins": ["@dazn/kopytko"],
+  "rules": {
+    "@dazn/kopytko/no-uninitialized-variables": "off",
+    "no-cond-assign": "off"
+  }
+}

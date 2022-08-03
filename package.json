@@ -1,0 +1,29 @@
+{
+  "name": "roku-themoviedb",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "package": "kopytko package",
+    "build": "kopytko build",
+    "start": "kopytko start",
+    "test": "kopytko test",
+    "lint": "eslint --ext .brs src/"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@dazn/kopytko-framework": "^2.1.0",
+    "@dazn/kopytko-utils": "^2.4.0"
+  },
+  "devDependencies": {
+    "@dazn/eslint-plugin-kopytko": "^2.1.0",
+    "@dazn/kopytko-cli": "^2.0.0",
+    "@dazn/kopytko-packager": "^1.2.4",
+    "@dazn/kopytko-unit-testing-framework": "^2.3.1",
+    "eslint": "^8.51.0"
+  }
+}
