@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="Genres" extends="KopytkoGroup">
+  <interface>
+    <field id="selected" type="node" />
+    <field id="onItemSelected" type="node" alwaysNotify="true" />
+  </interface>
+  <script type="text/brightscript" uri="Genres.component.brs" />
+  <script type="text/brightscript" uri="Genres.template.brs" />
+</component>

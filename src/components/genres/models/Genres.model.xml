@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name="GenresModel" extends="ContentNode">
+  <interface>
+     <function name="toJSON" />
+     <function name="fromJSON" />
+  </interface>
+  <children>
+    <!-- Genre Models as children -->
+  </children>
+  <script type="text/brightscript" uri="Genres.model.brs" />
+</component>

@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name="MoviesModel" extends="ContentNode">
+  <interface>
+    <field id="totalPages" type="integer" />
+    <field id="page" type="integer" />
+  </interface>
+  <children>
+    <!-- Movie Models as children -->
+  </children>
+</component>
